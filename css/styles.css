@@ -17,15 +17,17 @@ a {
 }
 
 .navbar {
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 150px;
-  background-color: gray;
+  padding: 30px 200px;
+  background-color: rgb(31, 44, 78);
   color: white;
 }
+
 .navbar .logo a {
   font-size: 20px;
   font-weight: 600;
@@ -36,4 +38,51 @@ a {
   align-items: center;
   gap: 20px;
   color: whitesmoke;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 200px 100px;
+  margin-top: 88px;
+  background-color: rgb(31, 44, 78);
+  color: white;
+} 
+
+.banner .content-1 {
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.banner .content-1 h2 {
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.banner .content-1 p {
+  color: rgb(223, 223, 223);
+}
+
+.banner .content-1 button {
+  width: fit-content;
+  background-color: rgb(0, 136, 154);
+  border: none;
+  padding: 9px 30px;
+  font-size: 15px;
+  color: white;
+  margin-top: 9px;
+  border-radius: 10px;
+}
+
+.banner .content-2 {
+  width: 520px;
+  height: 225px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
