@@ -141,7 +141,7 @@ article {
 .article-background-quote {
   display: flex;
   justify-content: flex-end;
-  margin: 30px 0 0 0;
+  /* margin: 30px 0 0 0; */
   font-size: 25px;
   font-weight: bold;
 }
