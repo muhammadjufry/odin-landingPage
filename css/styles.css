@@ -48,7 +48,7 @@ a {
   margin-top: 88px;
   background-color: rgb(31, 44, 78);
   color: white;
-} 
+}
 
 .banner .content-1 {
   width: 100%;
@@ -85,4 +85,37 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 3rem 7rem;
+  gap: 3rem;
+}
+.information h2 {
+  font-size: 33px;
+  font-weight: 900;
+
+}
+.information .info-content {
+  display: flex;
+  gap: 50px;
+}
+
+.information .info-content li {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+}
+.information .info-content .info-content-square  {
+  border: 4px solid teal;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  
 }
