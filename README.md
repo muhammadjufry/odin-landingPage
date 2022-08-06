@@ -1,6 +1,6 @@
 # Odin-landingPage Project
 
-> This is our second project with The Odin Project. On this project, I demonstrate my HTML5, CSS3 and JavaScript DOM skills.
+> This is my second project with The Odin Project. On this project, I demonstrate my HTML5, CSS3 and JavaScript DOM skills.
 
 ![screenshot](screenshot.png)
 
