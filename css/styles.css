@@ -287,6 +287,11 @@ footer {
     padding: 5rem 50px;
   }
 
+  .action {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .action-content {
     padding: 50px;
     gap: 2rem;
