@@ -1,13 +1,14 @@
 # Odin-landingPage Project
 
-> This is our second project with The Odin Project. On this project, I demonstrate my basic HTML5 and CSS3 skills.
+> This is our second project with The Odin Project. On this project, I demonstrate my HTML5, CSS3 and JavaScript DOM skills.
 
 ![screenshot](screenshot.png)
 
 ## Built With
 
-- HTML5(Basic)
-- CSS3(Basic)
+- HTML5
+- CSS3
+- JAVASCRIPT DOM
 
 ## Live Demo Of The Project
 
