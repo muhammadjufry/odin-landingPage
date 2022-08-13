@@ -82,6 +82,7 @@ a {
   color: white;
   margin-top: 9px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .banner .content-2 {
@@ -191,6 +192,9 @@ article {
 }
 
 footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   background-color: black;
   color: white;
   font-size: 17px;
