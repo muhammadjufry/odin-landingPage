@@ -47,7 +47,7 @@ a {
 .banner {
   display: flex;
   justify-content: space-between;
-  gap: 2em;
+  gap: 4em;
   align-items: center;
   padding: 50px 130px 100px;
   margin-top: 88px;
@@ -69,6 +69,7 @@ a {
 }
 
 .banner .content-1 p {
+  line-height: 32px;
   color: rgb(223, 223, 223);
 }
 
@@ -200,7 +201,7 @@ footer {
 
 @media screen and (max-width: 992px) {
   .navbar {
-    padding: 30px 50px;
+    padding: 30px calc(100vw - 94vw);
   }
 
   .navbar ul {
@@ -208,7 +209,8 @@ footer {
     display: none;
     transition: all 0.5s ease;
     flex-direction: column;
-    background-color: #1e293b;
+    background-color: rgba(30, 41, 59, 0.5);
+    backdrop-filter: blur(10px);
     color: white;
     padding: 1.5rem 50px;
     align-items: flex-start;
@@ -228,14 +230,14 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 25px;
+    height: 20px;
     position: relative;
   }
 
   .menuToggle input {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     opacity: 0;
     z-index: 2;
     cursor: pointer;
@@ -243,9 +245,9 @@ footer {
 
   .menuToggle span {
     transition: all 0.5s ease;
-    width: 30px;
-    height: 3px;
-    border-radius: 2px;
+    width: 25px;
+    height: 2px;
+    border-radius: 0.5px;
     background-color: white;
   }
 
@@ -255,7 +257,7 @@ footer {
   }
 
   .menuToggle input:checked ~ span:nth-child(2) {
-    transform: rotate(45deg) translate(0, -2px);
+    transform: rotate(45deg) translate(5px, 0);
   }
 
   .menuToggle input:checked ~ span:nth-child(3) {
@@ -263,18 +265,19 @@ footer {
   }
 
   .menuToggle input:checked ~ span:nth-child(4) {
-    transform: rotate(-45deg) translate(1px, -2px);
+    transform: rotate(-45deg) translate(-1px, 4.5px);
   }
 
   .banner {
     flex-direction: column-reverse;
     align-items: flex-start;
-    padding: 30px 50px 100px;
+    padding: 30px calc(100vw - 94vw) 100px;
     gap: 3em;
   }
 
   .banner .content-2 {
     padding: 20px;
+    height: 300px;
   }
 
   .information {
