@@ -84,9 +84,11 @@ a {
 }
 
 .banner .content-2 {
-  padding: 105px 150px;
+  padding: 105px 50px;
   background-color: grey;
+  width: 100%;
   display: flex;
+  max-width: 543px;
   align-items: center;
   justify-content: center;
 }
