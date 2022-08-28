@@ -9,6 +9,7 @@
 - HTML5
 - CSS3
 - JAVASCRIPT DOM
+- Responsive Web Design
 
 ## Live Demo Of The Project
 
