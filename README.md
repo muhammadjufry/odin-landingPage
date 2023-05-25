@@ -13,7 +13,7 @@
 
 ## Live Demo Of The Project
 
-https://muhammadjufri.github.io/odin-landingPage/
+https://muhammadjufry.github.io/odin-landingPage/
 
 ## Authors
 
@@ -21,6 +21,6 @@ https://muhammadjufri.github.io/odin-landingPage/
 
 - GitHub: [NJ-2020](https://github.com/NJ-2020)
 
-👤 **Muhammad**
+👤 **Muhammad Jufry**
 
-- GitHub: [MuhammadJufri](https://github.com/MuhammadJufri)
+- GitHub: [MuhammadJufry](https://github.com/MuhammadJufry)
